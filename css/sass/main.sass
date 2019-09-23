@@ -255,9 +255,12 @@ svg
 			+animation-delay(.5s)
 	.top_logo
 		+transition(all 1s ease)
+
 		img
 			+animation-delay(0.5s)
-			width: 30%
+			//height: 20%
+			max-width: 50%
+			height: auto
 	
 .toggle_mnu
 	background-color: #000
@@ -272,13 +275,6 @@ svg
 		ul
 			margin: 0
 
-.person
-	text-align: center
-	margin-bottom: 35px
-	img
-		max-width: 220px
-		display: inline-block
-		border-radius: 50%
 
 .s_about
 	p
@@ -290,8 +286,15 @@ svg
 		list-style-type: none
 	li
 		margin-bottom: 10px
+	img
+		max-width: 100%
+		height: auto
+
 	.social_wrap
 		margin-top: 25px
+
+.s_about_first_line
+	padding-bottom: 30px
 
 .social_wrap
 	li
@@ -299,10 +302,10 @@ svg
 		font-size: 20px
 		padding: 0 3px
 
-.resume_container
-	.left .resume_description strong
+.advantages_container
+	.left .advantages_description strong
 		margin-left: 10px
-	.right .resume_description strong
+	.right .advantages_description strong
 		margin-right: 10px
 	.left
 		text-align: right
@@ -325,9 +328,9 @@ svg
 		font-weight: 600
 		font-style: normal
 		text-transform: uppercase
-	.resume_description
+	.advantages_description
 		font-style: italic
-	.resume_item
+	.advantages_item
 		margin-bottom: 40px
 		p
 			margin-top: 10px
@@ -336,7 +339,7 @@ svg
 			p
 				margin-bottom: 0
 
-.resume_icon
+.advantages_icon
 	font-size: 40px
 	margin-bottom: 35px
 	.year
