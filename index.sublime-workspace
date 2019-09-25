@@ -1,0 +1,322 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-position\tproperty"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"padding-le",
+				"padding-left\tproperty"
+			],
+			[
+				"paddin",
+				"padding-left\tproperty"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"i",
+				"img"
+			],
+			[
+				"im",
+				"img\tTag"
+			],
+			[
+				"mai",
+				"magnific-popup"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Enable -",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				" LiveReload: Enable/disable plugins ",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"lire",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal pa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/GIT/zsc_new_site/css/sass/skins/tomato.sass",
+		"/D/GIT/zsc_new_site/css/sass/fonts.sass",
+		"/D/GIT/zsc_new_site/css/sass/main.sass",
+		"/D/GIT/zsc_new_site/index.html",
+		"/C/Users/Vegas/Desktop/NEW ZSC SITE/zsc_tmpl/css/media.css",
+		"/C/Users/Vegas/Desktop/NEW ZSC SITE/zsc_tmpl/css/sass/fonts.sass",
+		"/C/Users/Vegas/Desktop/NEW ZSC SITE/zsc_tmpl/css/sass/skins/tomato.sass",
+		"/C/Users/Vegas/Desktop/NEW ZSC SITE/zsc_tmpl/css/sass/main.sass",
+		"/C/Users/Vegas/Desktop/NEW ZSC SITE/_tmpl/img/logo.svg",
+		"/C/Users/Vegas/Desktop/NEW ZSC SITE/zsc_tmpl/js/common.js",
+		"/C/Users/Vegas/Desktop/NEW ZSC SITE/zsc_tmpl/index.html",
+		"/C/Users/Vegas/Desktop/test.sass",
+		"/C/Users/Vegas/Desktop/test.html",
+		"/c/users/vegas/appdata/local/temp/test",
+		"/c/users/vegas/appdata/local/temp/media.css",
+		"/C/Users/Vegas/AppData/Roaming/Sublime Text 3/Packages/Gist/Default (Windows).sublime-keymap",
+		"/C/Users/Vegas/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/C/Users/Vegas/AppData/Roaming/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/C/Users/Vegas/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Vegas/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/C/Users/Vegas/Desktop/NEW ZSC SITE/zsc_tmpl/css/fonts.css",
+		"/C/Users/Vegas/Desktop/NEW ZSC SITE/zsc_tmpl/css/main.css",
+		"/C/Users/Vegas/Desktop/NEW ZSC SITE/_tmpl/libs/parallax/parallax.min.js",
+		"/C/OServer/OSPanel/domains/giascleaningservices/wp-config.php",
+		"/C/OServer/OSPanel/domains/giascleaningservices/wp-settings.php",
+		"/D/!WORK/Texnofinance/texnofinance.com/CHANGE/2ua",
+		"/C/Users/Vegas/Desktop/20190619.backup",
+		"/D/!WORK/Texnofinance/texnofinance.com/CHANGE/2rus",
+		"/D/!WORK/Texnofinance/infinukr.com/changes/about.html",
+		"/D/!WORK/Texnofinance/texnofinance.com/Копії/2019-04-23/texfinua_db.sql",
+		"/D/!WORK/Texnofinance/texnofinance.com/Копії/2019-04-23/www/ssv3_directory.php",
+		"/C/Users/Vegas/Desktop/.htaccess",
+		"/D/!WORK/Texnofinance/texnofinance.com/Копії/2019-04-23/www/.htaccess__",
+		"/D/!WORK/Texnofinance/texnofinance.com/Копії/2019-04-23/www/.htaccess",
+		"/D/!WORK/Texnofinance/texnofinanse/CHANGE/2ua",
+		"/D/!WORK/Texnofinance/texnofinanse/CHANGE/2rus",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/catalog/controller/account/register.php!",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/catalog/controller/account/register.php",
+		"/D/!WORK/GSC/1. ESP/Sites/zadarovstock/Changes/Contact page/contact.tpl",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/catalog/view/theme/journal2/template/account/register.tpl!",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/catalog/view/theme/journal2/template/account/register.tpl",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/catalog/view/theme/journal2/template/information/contact.tpl",
+		"/C/Users/Vegas/Desktop/about.html",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/catalog/view/theme/journal2/template/journal2/module/slider_advanced.tpl",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/catalog/view/theme/journal2/lib/rs-plugin/js/jquery.themepunch.revolution.min — копия.js",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/admin/view/journal2/lib/rs-plugin/js/jquery.themepunch.revolution.js",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/catalog/view/theme/journal2/lib/rs-plugin/js/jquery.themepunch.revolution.js",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/catalog/view/theme/journal2/lib/rs-plugin/css/settings.css",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/admin/view/journal2/lib/rs-plugin/js/jquery.themepunch.plugins.min.js",
+		"//10.10.0.8/OSPanel/domains/mysites/opencart2/admin/view/journal2/lib/rs-plugin/js/jquery.themepunch.revolution.min.js",
+		"/D/!WORK/Texnofinance/!Invest/2018_12_03/public_html/about.html",
+		"/C/Users/Vegas/Desktop/PastePictures.xla",
+		"/D/!WORK/CERSANIT/Документи/Розібрати/Счет на оплату покупателю № 1548755-01 от 30 октября 2017 г..pdf",
+		"/C/Users/Vegas/Desktop/restored-databases-12-27-17/dbdumpA.sql",
+		"/C/Users/Vegas/Desktop/restored-databases-12-27-17/dbdump.sql",
+		"/C/Users/Vegas/Desktop/File1.txt",
+		"/C/Users/Vegas/Desktop/h/2215.rar",
+		"/C/Users/Vegas/Desktop/fg/index.html",
+		"/C/Users/Vegas/Desktop/map.jpg",
+		"/C/Users/Vegas/Desktop/fg/css/style.css",
+		"/C/Users/Vegas/Desktop/alarm.jpg",
+		"/C/Users/Vegas/Desktop/notime.jpg",
+		"/C/Users/Vegas/Desktop/time.jpg",
+		"/C/Users/Vegas/Desktop/check.jpg",
+		"/E/Instal/Office/Advanced.Edition/m0nkrus.nfo"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"100px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 517.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\GIT\\zsc_new_site\\index.sublime-workspace"
+			]
+		],
+		"width": 386.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 151.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
