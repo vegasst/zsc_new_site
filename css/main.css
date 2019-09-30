@@ -277,6 +277,9 @@ svg path {
     color: #ffffff;
     text-align: center; }
 
+.s_howwork img {
+  max-width: 100%; }
+
 .s_about p {
   margin-bottom: 25px; }
 .s_about ul,
@@ -379,6 +382,9 @@ svg path {
   font-size: 24px;
   font-weight: 700;
   color: white; }
+
+.onlymobile {
+  display: none; }
 
 .s_cooperation .s_cooperation_block {
   text-align: center; }

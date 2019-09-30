@@ -67,7 +67,7 @@ $(window).load(function() {
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 
-	$(".top_text h1").animated("fadeInRight", "fadeOutRight");
+	$(".top_text h1").animated("fadeInRight", "fadeOutLeft");
 	$(".top_text p").animated("fadeInLeft", "fadeOutLeft");
 	$(".top_logo img").animated("bounceIn", "bounceOut");
 

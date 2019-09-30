@@ -2,13 +2,28 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+.onlymobile
+	{
+		display: none;		
+	}
+.onlydesktop
+	{
+		display: block;		
+	}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.personal_last_block {
 		margin-top: 35px;
+	}
+	.onlymobile
+	{
+		display: none;		
+	}
+	.onlydesktop
+	{
+		display: block;		
 	}
 }
 
@@ -23,6 +38,15 @@
 	.resume_container .left h3 {
 		margin-top: 0;
 	}
+	.onlydesktop
+	{
+		display: none;		
+	}
+.onlymobile
+	{
+		display: block;		
+	}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -52,6 +76,14 @@
 	}
 	.main_footer .social_wrap ul {
 		padding-left: 0;
+	}
+	.onlydesktop
+	{
+		display: none;		
+	}
+	.onlymobile
+	{
+		display: block;		
 	}
 }
 
