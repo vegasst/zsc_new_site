@@ -275,7 +275,8 @@ svg path {
       color: #cccccc; }
   .main_footer .copyright {
     color: #ffffff;
-    text-align: center; }
+    text-align: center;
+    margin: auto; }
 
 .s_howwork img {
   max-width: 100%; }
@@ -398,5 +399,22 @@ svg path {
 .col-xs-1-5 {
   width: 20%;
   float: left; }
+
+.topmnu {
+  z-index: 999; }
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgba(255, 255, 255, 0.8); }
+
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase; }
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
