@@ -14,7 +14,6 @@ $(document).ready(function() {
 	});
 
 	$(".section_header").animated("fadeInUp", "fadeOutDown");
-
 	$(".animation_1").animated("flipInY", "fadeOutDown");
 	$(".animation_2").animated("fadeInLeft", "fadeOutDown");
 	$(".animation_3").animated("fadeInRight", "fadeOutDown");
@@ -25,8 +24,21 @@ $(document).ready(function() {
 	function heightDetect() {
 		$(".main_head").css("height", $(window).height());
 	};
+	function DetectMenu()
+	{
+		var width = $('body').innerWidth();
+		if (width < 768) {
+    $('.top_mnu_big').hide();
+  	$(".toggle_mnu").show();}
+    else
+    {
+    	$('.top_mnu_big').show();
+    	$(".toggle_mnu").hide();}
+	};
+  DetectMenu();
 	heightDetect();
 	$(window).resize(function() {
+		DetectMenu();
 		heightDetect();
 	});
 
@@ -66,7 +78,6 @@ $(window).load(function() {
 
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
-
 	$(".top_text h1").animated("fadeInRight", "fadeOutLeft");
 	$(".top_text p").animated("fadeInLeft", "fadeOutLeft");
 	$(".top_logo img").animated("bounceIn", "bounceOut");

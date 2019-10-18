@@ -10,6 +10,7 @@
 	{
 		display: block;		
 	}
+
 }
 
 /* Medium Devices, Desktops */
@@ -25,6 +26,7 @@
 	{
 		display: block;		
 	}
+
 }
 
 /* Small Devices, Tablets */
@@ -42,7 +44,7 @@
 	{
 		display: none;		
 	}
-.onlymobile
+	.onlymobile
 	{
 		display: block;		
 	}
@@ -85,6 +87,7 @@
 	{
 		display: block;		
 	}
+
 }
 
 /* Custom, iPhone Retina */
@@ -112,6 +115,7 @@
     width: 20%;
     float: left;
   }
+
 }
 
 /* Medium Devices, Desktops */

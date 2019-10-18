@@ -196,7 +196,32 @@ svg
 				height: 100%
 				+transition(all 0.5s ease)
 				&:hover
-					background-color: rgba(255,255,255,.08)
+					background-color: rgba(255,255,255,.08) 
+
+.top_mnu_big
+	float: right
+	z-index: 50
+	ul,
+	li
+		list-style-type: none
+		padding: 0
+		margin: 0
+		z-index: 300
+	ul
+		margin-bottom: 0
+		list-style: none
+		padding-left: 0
+		display: flex
+		flex-wrap: wrap
+		a
+			color: rgba(255, 255, 255, 0.8)
+			font-size: 14px
+			padding-right: 15px
+			text-transform: uppercase
+			opacity: 100
+			&:hover
+				color: rgba(255, 255, 255, 1)
+				font-weight: 550
 
 .top_wrapper
 	display: table
@@ -239,7 +264,7 @@ svg
 			height: auto
 	
 .toggle_mnu
-	background-color: #000
+	background-color: #cccccc
 
 .main_footer
 	padding: 50px 0
@@ -380,6 +405,7 @@ svg
 .onlymobile
 	display: none
 .s_cooperation
+	z-index: 2
 	.s_cooperation_block
 		text-align: center
 
@@ -407,3 +433,13 @@ svg
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link
 		color: #ffffff
+.lang-item 
+	ul li
+		display: inline-block
+		padding-right: 5px
+		padding-left: 5px
+	ul
+		padding-left: 0px
+		margin-top: 0px
+.crm-webform-iframe
+	background-color: #f5f5f5
