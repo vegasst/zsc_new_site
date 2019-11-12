@@ -35,11 +35,27 @@ $(document).ready(function() {
     	$('.top_mnu_big').show();
     	$(".toggle_mnu").hide();}
 	};
+function ResizeMainLogo()
+{
+	var width = $('body').innerWidth();
+	var height = $(window).height()
+	if(width > 768)
+	{
+		$('.top_wrapper .top_logo img').css('max-width', '30%');
+	}
+	else 
+		{
+			$('.top_wrapper .top_logo img').css('max-width', '15%');
+		}
+};
   DetectMenu();
 	heightDetect();
+	//ResizeMainLogo();
+
 	$(window).resize(function() {
 		DetectMenu();
 		heightDetect();
+		//ResizeMainLogo();
 	});
 
 	$(".toggle_mnu").click(function() {

@@ -48,6 +48,21 @@
 	{
 		display: block;		
 	}
+	.top_wrapper .top_text h1 {
+		font-size: 1.8em;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.top_wrapper .top_text p
+	{
+		font-size: 1em;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.top_wrapper .top_logo img
+	{
+		 
+	}
 
 }
 
@@ -60,7 +75,7 @@
 	}
 	.top_wrapper .top_text p
 	{
-		font-size: 1.4em;
+		font-size: 1em;
 		padding-right: 10px;
 		padding-left: 10px;
 	}
@@ -87,7 +102,23 @@
 	{
 		display: block;		
 	}
-
+.s_about_first_line
+	{
+		padding-bottom: 0px;
+	}
+	.personal_last_block
+	{
+		padding-bottom: 35px;	
+	}
+	.advantages_container h3
+	{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.s_advantages_block
+	{
+		padding-top: 20px;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -115,7 +146,6 @@
     width: 20%;
     float: left;
   }
-
 }
 
 /* Medium Devices, Desktops */

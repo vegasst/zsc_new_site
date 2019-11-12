@@ -1,0 +1,88 @@
+body {
+  color: #222; }
+
+a {
+  color: #86878b; }
+
+p,
+body .main_footer,
+.s_about li {
+  color: #212121; }
+
+.color_element {
+  color: #86878b; }
+
+.color_bg {
+  background-color: #86878b; }
+
+.color_border {
+  border-color: #86878b; }
+
+.bg_color2 {
+  background-color: #BBB; }
+
+.bg_light {
+  background-color: #ddd; }
+
+.bg_dark {
+  background-color: #808080;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+.top_mnu a:hover {
+  color: #86878b; }
+.top_mnu a {
+  letter-spacing: 4px; }
+
+.top_text p {
+  color: #fff;
+  letter-spacing: 5px; }
+
+.s_descr {
+  letter-spacing: 4px; }
+  .s_descr::after {
+    background-color: #222; }
+
+.s_advantages .s_howwork {
+  background-color: #BBB; }
+
+section h3 {
+  letter-spacing: 2px;
+  color: #212121;
+  font-weight: 1000; }
+
+.s_about p:nth-child(even) {
+  color: #86878b; }
+
+.s_action .content {
+  background-color: #BBB; }
+
+.main_footer a {
+  color: #86878b; }
+
+.contacts_icon {
+  color: #86878b; }
+
+.text-danger {
+  color: #86878b; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #86878b; }
+form input,
+form textarea {
+  letter-spacing: 2px; }
+form button {
+  background-color: #86878b;
+  letter-spacing: 2px; }
+form .form-group {
+  letter-spacing: 2px;
+  color: #212121; }
+
+.popup_content {
+  letter-spacing: 1px; }
+
+/*# sourceMappingURL=dark.css.map */

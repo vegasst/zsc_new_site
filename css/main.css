@@ -4,6 +4,8 @@ body {
   font-size: 14px;
   min-width: 320px;
   position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
   line-height: 1.6;
   -webkit-font-smoothing: antialised; }
 
@@ -77,8 +79,8 @@ svg {
   position: relative; }
 
 .toggle_mnu {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   position: fixed;
   z-index: 100;
   border: none;
@@ -204,7 +206,8 @@ svg path {
 
 .top_mnu_big {
   float: right;
-  z-index: 50; }
+  z-index: 50;
+  display: flex; }
   .top_mnu_big ul,
   .top_mnu_big li {
     list-style-type: none;
@@ -258,7 +261,7 @@ svg path {
       padding: 10px 35px;
       color: #fff;
       font-weight: normal;
-      font-size: 2.8em;
+      font-size: 2.6em;
       background-color: rgba(0, 0, 0, 0.1);
       margin-left: 20px;
       margin-right: 20px;
@@ -273,11 +276,12 @@ svg path {
       -webkit-animation-delay: 0.5s;
       -moz-animation-delay: 0.5s;
       animation-delay: 0.5s;
-      max-width: 50%;
+      max-height: 20%;
+      max-width: 25%;
       height: auto; }
 
 .toggle_mnu {
-  background-color: #cccccc; }
+  background-color: rgba(0, 0, 0, 0.3); }
 
 .main_footer {
   padding: 50px 0;
@@ -377,7 +381,8 @@ svg path {
   border-radius: 3px;
   background: #4aba50;
   box-shadow: 0 -3px #4aba50 inset;
-  transition: 0.2s; }
+  transition: 0.2s;
+  padding-bottom: 30px; }
   .button_action a:hover {
     background: #35a76e; }
   .button_action a:active {
@@ -430,20 +435,6 @@ svg path {
 .topmnu {
   z-index: 999; }
 
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-  color: rgba(255, 255, 255, 0.8); }
-
-.navbar-custom .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 14px;
-  padding-right: 15px;
-  text-transform: uppercase; }
-
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-  color: #ffffff; }
-
 .lang-item ul li {
   display: inline-block;
   padding-right: 5px;
@@ -453,6 +444,28 @@ svg path {
   margin-top: 0px; }
 
 .crm-webform-iframe {
-  background-color: #f5f5f5; }
+  background-color: #f5f5f5 !important; }
+
+.current_lang {
+  padding-right: 15px; }
+
+.lang-item-big {
+  display: none; }
+  .lang-item-big ul {
+    display: block; }
+  .lang-item-big li {
+    display: block; }
+  .lang-item-big a {
+    display: block;
+    padding-right: 15px; }
+
+.lang-item-big:hover {
+  display: block; }
+
+.current_lang:hover + .lang-item-big {
+  display: block; }
+
+.top_lang {
+  z-index: 50; }
 
 /*# sourceMappingURL=main.css.map */
