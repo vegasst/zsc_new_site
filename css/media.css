@@ -63,7 +63,10 @@
 	{
 		 
 	}
-
+	.logo_container
+	{
+		padding-left: 20px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -118,6 +121,10 @@
 	.s_advantages_block
 	{
 		padding-top: 20px;
+	}
+	.logo_container
+	{
+		padding-left: 15px;
 	}
 }
 

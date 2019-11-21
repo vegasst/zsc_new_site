@@ -1,11 +1,14 @@
 @import "../bourbon/bourbon"
 
 $color: #86878b //Theme skin
-$color2: #f5f5f5 //second color Theme skin
-$futer_color: #808080
+$color1: #ddd //first Theme skin
+$color2: #f5f5f5  //second color Theme skin
+$futer_color: #171717//#808080
 $text_color: #212121
 $main_color: #222
 $bg_light: #fff
+$bordo_color: #80141C
+$bg_second_top: #171717
 
 @mixin kerning($kerning)
 	letter-spacing: $kerning + px
@@ -27,11 +30,13 @@ body .main_footer,
 	background-color: $color
 .color_border
 	border-color: $color
+.bg_second_top
+	background-color: $bg_second_top	
 
 .bg_color2
 	background-color: $color2
 .bg_light
-	background-color: $bg_light
+	background-color: $color1
 .bg_dark
 	background-color: $futer_color
 	color: #fff
@@ -75,7 +80,7 @@ section
 	color: $color
 
 .contacts_icon
-	color: $color
+	color: $bordo_color
 
 .text-danger
 	color: $color

@@ -34,12 +34,19 @@ section,
 
 section {
   padding: 70px 0 90px; }
+  section h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px; }
   section h2 {
     text-align: center;
     font-size: 24px;
     text-transform: uppercase;
-    margin: 0 0 40px;
-    letter-spacing: 1px; }
+    margin-top: 0px;
+    letter-spacing: 1px;
+    padding-bottom: 30px; }
+    section h2 p {
+      margin: 0px; }
 
 .main_head {
   min-height: 480px;
@@ -71,6 +78,8 @@ section {
 
 .logo_container {
   float: left; }
+  .logo_container .textwidget p {
+    margin: 0px; }
 
 svg {
   height: 60px;
@@ -85,7 +94,8 @@ svg {
   z-index: 100;
   border: none;
   right: 20px;
-  top: 20px; }
+  top: 20px;
+  transition-duration: 0.5s; }
   .toggle_mnu span {
     display: block; }
 
@@ -113,6 +123,9 @@ svg {
 
 svg path {
   fill: #e0e0e0; }
+
+#logo2 {
+  fill: #000000; }
 
 .sw-bottom {
   position: relative;
@@ -213,7 +226,8 @@ svg path {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    z-index: 300; }
+    z-index: 300;
+    padding-left: 15px; }
   .top_mnu_big ul {
     margin-bottom: 0;
     list-style: none;
@@ -223,12 +237,13 @@ svg path {
     .top_mnu_big ul a {
       color: rgba(255, 255, 255, 0.8);
       font-size: 14px;
-      padding-right: 15px;
       text-transform: uppercase;
-      opacity: 100; }
+      opacity: 100;
+      transition-duration: 0.5s;
+      position: relative; }
       .top_mnu_big ul a:hover {
         color: white;
-        font-weight: 550; }
+        font-weight: 600; }
 
 .top_wrapper {
   display: table;
@@ -339,14 +354,17 @@ svg path {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #ff8b38;
+  border: 3px solid #80141C;
   border-radius: 50%;
-  text-align: center; }
+  text-align: center;
+  display: flex;
+  justify-content: center; }
   .advantages_container .iround i {
     font-family: fontawesome;
-    color: #ff8b38;
-    font-size: 40px;
-    margin-top: 28px; }
+    display: flex;
+    align-items: center;
+    color: #80141C;
+    font-size: 40px; }
 .advantages_container h3 {
   margin-top: 30px;
   text-transform: none; }
@@ -381,8 +399,7 @@ svg path {
   border-radius: 3px;
   background: #4aba50;
   box-shadow: 0 -3px #4aba50 inset;
-  transition: 0.2s;
-  padding-bottom: 30px; }
+  transition: 0.2s; }
   .button_action a:hover {
     background: #35a76e; }
   .button_action a:active {
@@ -390,7 +407,8 @@ svg path {
     box-shadow: 0 3px #21935a inset; }
 
 .contact_box {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  padding-bottom: 30px; }
   .contact_box h3 {
     text-align: left;
     color: #000;
@@ -421,6 +439,8 @@ svg path {
   z-index: 2; }
   .s_cooperation .s_cooperation_block {
     text-align: center; }
+    .s_cooperation .s_cooperation_block p {
+      font-weight: 650; }
 
 .col-xs-1-5 .col-sm-1-5 .col-md-1-5 .col-lg-1-5 {
   position: relative;
@@ -443,21 +463,17 @@ svg path {
   padding-left: 0px;
   margin-top: 0px; }
 
-.crm-webform-iframe {
-  background-color: #f5f5f5 !important; }
-
-.current_lang {
-  padding-right: 15px; }
-
 .lang-item-big {
-  display: none; }
+  display: none;
+  position: absolute; }
+  .lang-item-big ul, .lang-item-big li {
+    padding-left: 0px; }
   .lang-item-big ul {
     display: block; }
   .lang-item-big li {
     display: block; }
   .lang-item-big a {
-    display: block;
-    padding-right: 15px; }
+    display: block; }
 
 .lang-item-big:hover {
   display: block; }
@@ -466,6 +482,39 @@ svg path {
   display: block; }
 
 .top_lang {
-  z-index: 50; }
+  z-index: 50;
+  padding-left: 30px; }
+
+.scrol_menu {
+  position: fixed;
+  z-index: 22;
+  left: 3%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 94%;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.fixed_top_menu {
+  transition-duration: 1s; }
+
+.under_line {
+  position: relative; }
+
+.under_line::before {
+  content: "";
+  bottom: 20px;
+  right: 30%;
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  background-color: #80141C;
+  transition: 0.2s; }
+
+.contacts_icon {
+  color: #80141C; }
+
+.block_button_action {
+  padding-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */

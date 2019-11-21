@@ -27,7 +27,7 @@ $(document).ready(function() {
 	function DetectMenu()
 	{
 		var width = $('body').innerWidth();
-		if (width < 768) {
+		if (width < 768 || $(window).scrollTop() > 10) {
     $('.top_mnu_big').hide();
   	$(".toggle_mnu").show();}
     else
@@ -48,6 +48,16 @@ function ResizeMainLogo()
 			$('.top_wrapper .top_logo img').css('max-width', '15%');
 		}
 };
+
+function ActivateFixedMenu() {
+	var width = $('body').innerWidth();
+  if ($(window).scrollTop() == 0 || width < 768) {
+    $('.fixed_top_menu').removeClass("scrol_menu");
+  } else {
+    $('.fixed_top_menu').addClass("scrol_menu");
+  }
+}
+	//ActivateFixedMenu();
   DetectMenu();
 	heightDetect();
 	//ResizeMainLogo();
@@ -57,6 +67,11 @@ function ResizeMainLogo()
 		heightDetect();
 		//ResizeMainLogo();
 	});
+
+	$(window).scroll(function() {
+  //ActivateFixedMenu();
+  DetectMenu();
+});
 
 	$(".toggle_mnu").click(function() {
 		$(".sandwich").toggleClass("active");

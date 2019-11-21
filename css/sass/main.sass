@@ -34,12 +34,19 @@ section,
 
 section
 	padding: 70px 0 90px
+	h1
+		text-align: center
+		text-transform: uppercase
+		font-size: 26px
 	h2
 		text-align: center
 		font-size: 24px
 		text-transform: uppercase
-		margin: 0 0 40px
+		margin-top: 0px
 		letter-spacing: 1px
+		padding-bottom: 30px
+		p
+			margin: 0px
 
 .main_head
 	min-height: 480px
@@ -71,7 +78,9 @@ section
 
 .logo_container
 	float: left
-
+	.textwidget
+		p
+			margin: 0px
 svg
 	height: 60px
 	width: 60px
@@ -86,6 +95,7 @@ svg
 	border: none
 	right: 20px
 	top: 20px
+	transition-duration: 0.5s
 	span
 		display: block
 
@@ -121,6 +131,8 @@ $h: 3px
 svg
 	path
 		fill: #e0e0e0
+#logo2
+	fill: #000000
 
 .sw-bottom
 	position: relative
@@ -210,6 +222,7 @@ svg
 		padding: 0
 		margin: 0
 		z-index: 300
+		padding-left: 15px
 	ul
 		margin-bottom: 0
 		list-style: none
@@ -219,12 +232,14 @@ svg
 		a
 			color: rgba(255, 255, 255, 0.8)
 			font-size: 14px
-			padding-right: 15px
 			text-transform: uppercase
 			opacity: 100
+			transition-duration: .5s
+			position: relative
 			&:hover
 				color: rgba(255, 255, 255, 1)
-				font-weight: 550
+				font-weight: 600
+				//border-bottom: 1px solid
 
 .top_wrapper
 	display: table
@@ -330,15 +345,18 @@ svg
 		display: block
 		margin-left: auto
 		margin-right: auto
-		border: 3px solid #ff8b38
+		//border: 3px solid #ff8b38
+		border: 3px solid #80141C
 		border-radius: 50%
 		text-align: center
-		//padding: 20px
+		display: flex
+		justify-content: center
 		i
 			font-family: fontawesome
-			color: #ff8b38
+			display: flex
+			align-items: center
+			color: #80141C
 			font-size: 40px
-			margin-top: 28px
 	h3
 		margin-top: 30px
 		text-transform: none
@@ -375,7 +393,7 @@ svg
 		background: #4aba50
 		box-shadow: 0 -3px #4aba50 inset
 		transition: 0.2s
-		padding-bottom: 30px
+		//padding-bottom: 30px
 		&:hover
 			background: rgb(53, 167, 110)
 		&:active
@@ -384,6 +402,7 @@ svg
 
 .contact_box
 	margin-bottom: 30px
+	padding-bottom: 30px
 	h3
 		text-align: left
 		color: #000
@@ -414,6 +433,8 @@ svg
 	z-index: 2
 	.s_cooperation_block
 		text-align: center
+		p
+			font-weight: 650
 
 .col-xs-1-5 .col-sm-1-5 .col-md-1-5 .col-lg-1-5
 	position: relative
@@ -433,23 +454,61 @@ svg
 	ul
 		padding-left: 0px
 		margin-top: 0px
-.crm-webform-iframe
-	background-color: #f5f5f5!important
 
-.current_lang
-	padding-right: 15px
 .lang-item-big
 	display: none
+	position: absolute
+	ul,li
+		padding-left: 0px
 	ul
 		display: block
 	li
 		display: block
 	a
 		display: block
-		padding-right: 15px
 .lang-item-big:hover
 	display: block
 .current_lang:hover + .lang-item-big
 	display: block
 .top_lang
 	z-index: 50
+	padding-left: 30px
+.scrol_menu
+	position: fixed
+	z-index: 22
+	left: 3%
+	margin: auto
+	background-color: rgba(0,0,0,.3)
+	width: 94%	
+	padding-left: 50px
+	padding-right: 50px
+.fixed_top_menu
+	transition-duration: 1s	
+
+//.top_mnu_big a::before
+//	content: ''
+//	bottom: 0
+//	right: 0
+//	position: absolute
+//	width: 0%
+//	height: 2px
+//	background-color: #fff
+//	transition: 0.2s
+//.top_mnu_big a:hover:before
+//	width: 100%
+//	left: 0
+.under_line
+	position: relative	
+.under_line::before
+	content: ''
+	bottom: 20px
+	right: 30%
+	position: absolute
+	width: 40%
+	height: 2px
+	background-color: #80141C
+	transition: 0.2s
+.contacts_icon
+	color: #80141C
+.block_button_action
+	padding-bottom: 20px

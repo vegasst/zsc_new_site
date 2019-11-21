@@ -18,6 +18,9 @@ body .main_footer,
 .color_border {
   border-color: #86878b; }
 
+.bg_second_top {
+  background-color: #171717; }
+
 .bg_color2 {
   background-color: #BBB; }
 
@@ -64,7 +67,7 @@ section h3 {
   color: #86878b; }
 
 .contacts_icon {
-  color: #86878b; }
+  color: #80141C; }
 
 .text-danger {
   color: #86878b; }
