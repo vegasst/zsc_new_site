@@ -216,6 +216,7 @@ svg
 	float: right
 	z-index: 50
 	display: flex
+	padding-top: 20px
 	ul,
 	li
 		list-style-type: none
@@ -278,8 +279,8 @@ svg
 
 		img
 			+animation-delay(0.5s)
-			max-height: 20%
-			max-width: 25%
+			//max-height: 20%
+			//max-width: 25%
 			height: auto
 	
 .toggle_mnu
@@ -512,3 +513,79 @@ svg
 	color: #80141C
 .block_button_action
 	padding-bottom: 20px
+.hwwork_block_wrap
+	display: flex
+	flex-direction: column-reverse
+	height: 400px
+	transform: scale(0.99)
+	transition-duration: 0.5s
+.hwwork_block_wrap:hover
+	transform: scale(1.01)
+	z-index: 10
+	p
+		font-size: 18px
+	.hwwork_block
+		height: 100%	
+		align-items: center
+.hwwork_block
+	display: flex
+	justify-content: center
+	padding: 10px
+	background-color: rgba(0,0,0,.5)
+	p
+		color: white
+		text-align: center
+.hwwork_block_wrap_1
+	background: url("../img/hww1.png") 100% 100% no-repeat
+	background-size: cover
+.hwwork_block_wrap_2
+	background: url("../img/hww2.jpg") 100% 100% no-repeat
+	background-size: cover
+.hwwork_block_wrap_3
+	background: url("../img/hww3.jpg") 100% 100% no-repeat
+	background-size: cover
+.undervawe
+	margin: auto	
+	width: 300px
+	padding-bottom: 30px
+.vawe
+	background: url("../img/vawe.png") 100% 100% repeat
+	transition-duration: 0.5s
+	height: 34px
+
+.block
+	position: fixed
+	display: flex
+	text-align: center
+	left: 10px
+	top: 50%
+	margin: auto
+	z-index: 99
+	width: 200px
+	height: 150px
+	box-shadow: 1px 1px 4px rgba(14, 14, 14, 0.3)
+	border: 2px solid rgba(255, 255, 255, 0.15)
+	border-radius: 15px
+	text-shadow: 0 1px 2px #000
+	color: #fff
+	background-color: rgba(128, 20, 28, 0.5)
+	cursor: move
+	h3
+		z-index: 99
+		text-align:center
+		margin: auto
+.top_message
+	background-color: #80141C
+	p
+		color: white
+		font-size: 16px
+		text-align: center
+		margin: 0px
+		padding: 0px
+.flake
+	z-index: 9999
+	color: #ffffff 
+	img
+		color: #ffffff 
+	
+

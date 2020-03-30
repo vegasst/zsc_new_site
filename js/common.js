@@ -39,14 +39,20 @@ function ResizeMainLogo()
 {
 	var width = $('body').innerWidth();
 	var height = $(window).height()
-	if(width > 768)
-	{
-		$('.top_wrapper .top_logo img').css('max-width', '30%');
-	}
-	else 
-		{
-			$('.top_wrapper .top_logo img').css('max-width', '15%');
-		}
+	var w, h;
+		if(width > height)
+			{
+					h = (height-120)/2;
+					$('.top_wrapper .top_logo img').height('value',(height-120)/2);
+					$('.top_wrapper .top_logo img').css({ width: h });
+			}
+		else 
+			{
+				h = height/3;
+				$('.top_wrapper .top_logo img').height('value',height/3);
+				$('.top_wrapper .top_logo img').css({ width: h });
+			}
+
 };
 
 function ActivateFixedMenu() {
@@ -60,12 +66,12 @@ function ActivateFixedMenu() {
 	//ActivateFixedMenu();
   DetectMenu();
 	heightDetect();
-	//ResizeMainLogo();
+	ResizeMainLogo();
 
 	$(window).resize(function() {
 		DetectMenu();
 		heightDetect();
-		//ResizeMainLogo();
+		ResizeMainLogo();
 	});
 
 	$(window).scroll(function() {
@@ -104,7 +110,15 @@ function ActivateFixedMenu() {
 
 	$(".top_mnu ul a").mPageScroll2id();
 
+
+	//show_snow({ minSize: 5, maxSize: 50, newOn: 1000, flakeColor: '#FFFFFF' });
+
 });
+
+//$(function(){
+//  $('.block').draggable();
+//})
+
 $(window).load(function() {
 
 	$(".loader_inner").fadeOut();
@@ -114,3 +128,59 @@ $(window).load(function() {
 	$(".top_logo img").animated("bounceIn", "bounceOut");
 
 }); 
+
+function show_snow(options){
+	
+			var $flake 			= $('<div class="flake" />').css({'position': 'absolute', 'top': '-50px'}),
+				documentHeight 	= $(document).height(),
+				documentWidth	= $(document).width(),
+				defaults		= {
+									flakeChar	: "&#10052;", 
+									minSize		: 10,
+									maxSize		: 20,
+									newOn		: 500,
+									flakeColor	: ["#ffffff"],
+									durationMillis: null
+								},
+				options			= $.extend({}, defaults, options);
+							
+			$flake.html(options.flakeChar);
+
+			var interval		= setInterval( function(){
+				var startPositionLeft 	= Math.random() * documentWidth - 100,
+				 	startOpacity		= 0.5 + Math.random(),
+					sizeFlake			= options.minSize + Math.random() * options.maxSize,
+					endPositionTop		= documentHeight - defaults.maxSize - 40,
+					endPositionLeft		= startPositionLeft - 100 + Math.random() * 200,
+					durationFall		= documentHeight * 10 + Math.random() * 5000;
+				$flake
+					.clone()
+					.appendTo('body')
+					.css(
+						{
+							left: startPositionLeft,
+							opacity: startOpacity,
+							'font-size': sizeFlake,
+							color: options.flakeColor//options.flakeColor[Math.floor((Math.random() * options.flakeColor.length))]
+						}
+					)
+					.animate(
+						{
+							top: endPositionTop,
+							left: endPositionLeft,
+							opacity: 0.2
+						},
+						durationFall,
+						'linear',
+						function() {
+							$(this).remove()
+						}
+					);
+			}, options.newOn);
+
+			if (options.durationMillis) {
+				setTimeout(function() {
+					removeInterval(interval);
+				}, options.durationMillis);
+			}	
+	};
